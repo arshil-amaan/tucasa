@@ -1,0 +1,231 @@
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+#title{
+  background-color: #7149C6;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+}
+
+#title > .container-fluid{
+  padding: 3% 15%;
+  
+}
+
+h1{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  color: #000;
+  font-weight: 700;
+}
+
+h3{
+  font-weight: 800;
+}
+
+/* Navbar */
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 2.5rem;
+
+}
+
+.navbar{
+  padding-bottom: 50px;
+}
+
+.navbar .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.dl-btn, .visit-btn{
+  margin: 5% 3% 5% 0;
+}
+.visit-btn:hover{
+  background-color: transparent;
+  border-color: #fff;
+}
+
+/* Title Image */
+
+.title-image{
+  position: absolute;
+  z-index: 1;
+  width: 47%;
+}
+
+/* Features */
+
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 150px;
+  color: #8f8f8f;
+}
+
+.feature-icon{
+  color: #aa77ff;
+  padding: 0 0 20px;
+  font-size: 4rem;
+}
+
+.feature-icon:hover{
+  color: #7149C6;
+}
+
+.feature-heading{
+  color: #000;
+  font-weight: 700;
+}
+
+/* Testimonial Section */
+
+
+#testimonials{
+  color: #fff;
+  background-color: #aa77ff;
+  text-align: center;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #aa77ff;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-image{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+}
+
+.pricing-heading{
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 3%;
+}
+
+.card{
+  display: flex;
+  margin: 30px 50px;
+  padding: 0;
+  border-left: 0.8px solid #ccc !important;
+  border-radius: 15px !important;
+}
+
+.card-group{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+  text-align: center;
+}
+
+.btn-block{
+  width: 100%;
+}
+
+.pricing-btn:hover{
+  background-color: transparent;
+  border-color: #212529;
+  color: #212529;
+}
+.gold:hover{
+  color : goldenrod;
+  border-color: goldenrod;
+}
+.silver:hover{
+  color : #A8A196;
+  border-color: #A8A196;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color:#7149C6 ;
+  padding: 5rem;
+  text-align: center;
+}
+
+.cta-text{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  padding: 0 0 2rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
+
+#footer>i{
+  padding: 0.7rem;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    width: 102%;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+}

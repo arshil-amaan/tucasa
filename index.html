@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/a0019a0640.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TuCasa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Suites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Immerse Yourself in Opulent Bliss: Welcome to Luxe Living.</h1>
+          <a href="#pricing"><button class="btn btn-dark btn-lg visit-btn" type="button"><i
+                class="fa-solid fa-map-location-dot"></i> Book Visit</button></a>
+          <button class="btn btn-outline-light btn-lg dl-btn" type="button"><i class="fa-brands fa-google-play"></i>
+            Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/main-mansion.png" alt="mansion">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid row">
+      <div class=" col-md-4">
+        <i class="fa-solid fa-circle-check fa-flip feature-icon" style="--fa-animation-duration: 5s;"></i>
+        <h3 class="feature-heading">Trusted by 1k+ happy customers.</h3>
+        <p>Over 1k satisfied customers experienced luxurious lifestyle.</p>
+      </div>
+
+      <div class=" col-md-4">
+        <i class="fa-solid fa-paw fa-bounce feature-icon"></i>
+        <h3 class="feature-heading">Pet-Friendly.</h3>
+        <p>Welcoming pets with open paws.</p>
+      </div>
+
+      <div class=" col-md-4">
+        <i class="fa-solid fa-heart fa-beat feature-icon" style="--fa-animation-duration: 2s;"></i>
+        <h3 class="feature-heading">Cozy Stay.</h3>
+        <p>Experience Warmth and Comfort Like Never Before.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">A taste of paradise! The mansion's impeccable design and breathtaking views made us feel like we were living in a fairytale.</h2>
+          <img class="testimonial-image" src="images/young-couple.jpg" alt="dog-profile">
+          <em>Mr. & Mrs. Carter, CA</em>
+        </div>
+
+        <div class="carousel-item ">
+          <h2 class="testimonial-text">A truly magical experience! The attention to detail and impeccable service set this villa apart from the rest.</h2>
+          <img class="testimonial-image" src="images/man.jpg" alt="lady-profile">
+          <em>Mr. Thomas T., New York
+          </em>
+        </div>
+
+        <div class="carousel-item ">
+          <h2 class="testimonial-text">Indulgence at its finest! From the moment we arrived, we were immersed in a world of luxury and elegance.</h2>
+          <img class="testimonial-image" src="images/mid-couple.jpg" alt="lady-profile">
+          <em>Mr. & Mrs. Evans, Los Angeles</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-image" src="https://img.icons8.com/clouds/720/airbnb.png" alt="airbnb" />
+    <img class="press-image" src="images/jw-marriott-hotel.png" alt="tc-logo">
+    <img class="press-image" src="https://img.icons8.com/clouds/720/trivago.png" alt="trivago" />
+    <img width="20%" style="padding: 20px 20px 50px;" src="images/homes-villas.png" alt="trivago" />
+
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-heading">Discover Affordable Elegance at Its Finest</h2>
+    <p>Simple and affordable price plans for luxury living.</p>
+
+    <div class="card-group row">
+      <div class="card col-lg-4">
+        <div class="card-header">
+          <h3>Happy House</h3>
+        </div>
+
+        <div class="card-body">
+          <h2>$299 / mo</h2>
+          <p>700 Sqft Carpet Area</p>
+          <p>Community School, Hospital</p>
+          <p>24-Hrs Security</p>
+          <button type="button" class="btn btn-outline-dark btn-lg btn-block">Check Availibility</button>
+        </div>
+      </div>
+
+      <div class="card col-lg-4">
+        <div class="card-header w-100">
+          <h3>Supreme Villa</h3>
+        </div>
+
+        <div class="card-body">
+          <h2>$699 / mo</h2>
+          <p>1500 Sqft Carpet Area</p>
+          <p>Welcoming Neigbhourhood</p>
+          <p>Amazing Infrastructure</p>
+          <button type="button" class="btn btn-dark btn-lg btn-block pricing-btn silver">Check Availibility</button>
+        </div>
+      </div>
+
+      <div class="card col-lg-4">
+        <div class="card-header">
+          <h3>Elite Mansion</h3>
+        </div>
+
+        <div class="card-body">
+          <h2>$1199 / mo</h2>
+          <p>Ready to move in</p>
+          <p>Access to exclusive amenities</p>
+          <p>Prestige and grandeur on lease</p>
+          <p>Exquisite living experience</p>
+          <button type="button" class="btn btn-dark btn-lg btn-block pricing-btn gold">Check Availibility</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-text">Embrace Elegance: Rent Your Dream Luxury Retreat!</h3>
+    <a href="#pricing"><button class="btn btn-dark btn-lg visit-btn" type="button"><i
+      class="fa-solid fa-map-location-dot"></i> Book Visit</button></a>
+<button class="btn btn-outline-light btn-lg dl-btn" type="button"><i class="fa-brands fa-google-play"></i>
+  Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <p>&copy Copyright TinDog</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
