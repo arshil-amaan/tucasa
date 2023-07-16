@@ -149,11 +149,7 @@ h3{
 }
 
 .card{
-  display: flex;
   margin: 30px 50px;
-  padding: 0;
-  border-left: 0.8px solid #ccc !important;
-  border-radius: 15px !important;
 }
 
 .card-group{
